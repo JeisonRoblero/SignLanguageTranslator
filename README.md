@@ -4,10 +4,10 @@ Sistema Traductor de Lenguaje de Señas
 ## Capturas de Pantalla
 ### Colección de Imagenes de Entrenamiento
 <div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/8abe6f6c-6ee1-40a3-b17b-dc82daf830df" alt="Imagen 1" width="350">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/8abe6f6c-6ee1-40a3-b17b-dc82daf830df" alt="Imagen 1" width="400">
 </div>
 <div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/50518435-3f0f-4170-933a-6e829b066d8c" alt="Imagen 2" width="350">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/50518435-3f0f-4170-933a-6e829b066d8c" alt="Imagen 2" width="400">
 </div>
 <div style="border: 2px solid black; padding: 10px; display: inline-block;">
   <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/0c6ddc54-0587-4b53-9725-62e7d3d6c2df" alt="Imagen 3" width="400">
