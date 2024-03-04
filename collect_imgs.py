@@ -28,13 +28,13 @@ def start_data_collection():  # Recolecta datos de una nueva clase
 
         ret, frame = cap.read()  # Ret es True si fue captura exitosa o False si no, frame almacena la captura.
 
-        cv2.putText(frame, 'Click en "Q" para empezar a capturar :)',
-                    (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 0), 3,
+        cv2.putText(frame, 'Click en "c" para empezar a capturar :)',
+                    (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (10, 10, 10), 3,
                     cv2.LINE_AA)  # Agrega texto al fotograma en la parte superior.
 
         cv2.imshow('frame', frame)  # Muestra el fotograma.
 
-        if cv2.waitKey(1) == ord('q'):  # Espera la tecla 'Q' para empezar a capturar datos.
+        if cv2.waitKey(1) == ord('c'):  # Espera la tecla 'Q' para empezar a capturar datos.
 
             break  # Sale del bucle.
 
