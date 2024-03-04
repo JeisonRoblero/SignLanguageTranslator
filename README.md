@@ -12,20 +12,12 @@ Sistema Traductor de Lenguaje de Señas
 </div>
 
 ### Predicciones Finales
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/deaa9c75-6385-46a3-bb67-a79a1c6d98b5" alt="Imagen 6" width="400">
-</div>
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/5cfde776-f534-40f8-b1fc-26af3627f993" alt="Imagen 7" width="400">
-</div>
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/39b4a798-b3d2-46d0-a345-8175967d9ace" alt="Imagen 8" width="400">
-</div>
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/01490961-6f0f-4202-b519-f79bb5528ba7" alt="Imagen 9" width="400">
-</div>
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
-  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/edb99cf6-d23e-4444-8eb3-52763b5aadd6" alt="Imagen 10" width="400">
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/deaa9c75-6385-46a3-bb67-a79a1c6d98b5" alt="Imagen 6" width="400" style="border: 2px solid black; padding: 10px; margin: 5px;">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/5cfde776-f534-40f8-b1fc-26af3627f993" alt="Imagen 7" width="400" style="border: 2px solid black; padding: 10px; margin: 5px;">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/39b4a798-b3d2-46d0-a345-8175967d9ace" alt="Imagen 8" width="400" style="border: 2px solid black; padding: 10px; margin: 5px;">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/01490961-6f0f-4202-b519-f79bb5528ba7" alt="Imagen 9" width="400" style="border: 2px solid black; padding: 10px; margin: 5px;">
+  <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/edb99cf6-d23e-4444-8eb3-52763b5aadd6" alt="Imagen 10" width="400" style="border: 2px solid black; padding: 10px; margin: 5px;">
 </div>
 
 
