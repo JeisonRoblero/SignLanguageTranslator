@@ -3,7 +3,6 @@ Sistema Traductor de Lenguaje de Señas
 
 ## Capturas de Pantalla
 ### Colección de Imágenes de Entrenamiento
-
 <div style="display: flex; flex-wrap: wrap;">
   <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/8abe6f6c-6ee1-40a3-b17b-dc82daf830df" alt="Imagen 1" width="400" style="border: 2px solid black; padding: 10px; margin: 10px;">
   <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/50518435-3f0f-4170-933a-6e829b066d8c" alt="Imagen 2" width="400" style="border: 2px solid black; padding: 10px; margin: 10px;">
@@ -13,7 +12,6 @@ Sistema Traductor de Lenguaje de Señas
 </div>
 
 ### Predicciones Finales
-
 <div style="display: flex; flex-wrap: wrap;">
   <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/deaa9c75-6385-46a3-bb67-a79a1c6d98b5" alt="Imagen 6" width="400" style="border: 2px solid black; padding: 10px; margin: 10px;">
   <img src="https://github.com/JeisonRoblero/SignLanguageTranslator/assets/89631773/5cfde776-f534-40f8-b1fc-26af3627f993" alt="Imagen 7" width="400" style="border: 2px solid black; padding: 10px; margin: 10px;">
