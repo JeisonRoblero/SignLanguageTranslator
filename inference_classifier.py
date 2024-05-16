@@ -2,6 +2,24 @@ import pickle  # Importa el módulo "pickle" para serialización de objetos.
 import cv2  # Importa la biblioteca "cv2" para procesamiento de imágenes y videos.
 import mediapipe as mp  # Importa la biblioteca "mediapipe" para el análisis de imágenes.
 import numpy as np  # Importa el módulo numpy para manipulación de arreglos.
+import pyttsx3  # Importa pyttsx3 para la función de texto a voz.
+import threading # Importa la librería para el uso de hilos
+
+# Inicializa el motor de pyttsx3
+engine_voice = pyttsx3.init()
+
+# Se configuran propiedades del motor, como la velocidad y el volumen
+engine_voice.setProperty('rate', 150)    # Velocidad de habla (default es 200)
+engine_voice.setProperty('volume', 0.9)  # Volumen (default es 1.0)
+
+def speak(text):
+    try:
+        # Pasa el texto al motor de pyttsx3
+        engine_voice.say(text)
+        # Ejecuta el comando para convertir el texto a voz
+        engine_voice.runAndWait()
+    except Exception:
+        pass
 
 # Carga el modelo entrenado desde el archivo 'model.p'.
 model_dict = pickle.load(open('./model.p', 'rb'))
@@ -67,6 +85,10 @@ while True:  # Bucle infinito para procesar cada fotograma de video.
         # Realiza una predicción utilizando el modelo entrenado.
         prediction = model.predict([np.asarray(data_aux)])  # Utiliza el modelo para predecir el gesto de la mano representado por los datos auxiliares.
         predicted_character = prediction[0]  # Obtiene el carácter predicho
+
+        # Crear un hilo para ejecutar la función de hablar
+        thread = threading.Thread(target=speak, args=(predicted_character,))
+        thread.start()
 
         # Dibuja un rectángulo alrededor de la mano y muestra el carácter predicho.
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)  # Dibuja un rectángulo alrededor de la mano en el fotograma.

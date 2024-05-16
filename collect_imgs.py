@@ -10,7 +10,6 @@ DATA_DIR = './data'  # Ruta al directorio donde se almacenarán los datos recopi
 if not os.path.exists(DATA_DIR):  # Verifica si el directorio no existe.
     os.makedirs(DATA_DIR)  # Crea el directorio si no existe.
 
-
 def start_data_collection():  # Recolecta datos de una nueva clase
     cap = cv2.VideoCapture(0)  # Inicia la captura de video desde la cámara web.
     dataset_size = int(dataset_size_entry.get())  # Se almacena el valor del tamaño del set de datos
