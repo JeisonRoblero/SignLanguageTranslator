@@ -1,5 +1,7 @@
 # SignLanguageTranslator
-Sistema Traductor de Lenguaje de Señas
+Sistema Traductor de Lenguaje de Señas.
+
+Implementación de interfaz dinámica, <a href="https://github.com/JeisonRoblero/SignLanguageTranslatorFlutter?tab=rreadme-ov-file">click aquí para ver</a>.
 
 ## Capturas de Pantalla
 ### Colección de Imágenes de Entrenamiento
